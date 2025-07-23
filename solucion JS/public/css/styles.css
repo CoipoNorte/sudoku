@@ -1,0 +1,41 @@
+#board {
+  width: 470px;
+  margin: 0 auto;
+}
+.sudoku-cell {
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  border: 1px solid #444;
+  background: #3B8ED0;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  outline: none;
+  transition: background 0.2s;
+}
+.sudoku-cell.initial {
+  background: #222;
+  color: #FFD700;
+}
+.sudoku-cell.selected {
+  border: 3px solid #FFD700;
+}
+.sudoku-cell.highlight {
+  background: #2a3b4d;
+}
+.sudoku-cell.error {
+  background: #FFA500 !important;
+}
+#numpad .btn {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  font-size: 1.2rem;
+}
+#status {
+  min-height: 2em;
+  display: inline-block;
+}
