@@ -1,5 +1,6 @@
 import random
 
+# forzar los colores ANSI en Windows importanto colorama señores
 from colorama import init
 init(autoreset=True)
 
